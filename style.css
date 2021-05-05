@@ -60,7 +60,7 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: xxx-large;
   color: #fff;
 }
 
@@ -88,13 +88,11 @@ header nav ul li a:hover {
 form {
   border: 2px solid #ff385c;
   padding: 10px;
+  flex-wrap: wrap;
 }
 
 form label {
   font-weight: bold;
-  float: left;
-  clear: both;
-  float: left;
   display: table-cell;
   width: 250px;
 }
@@ -103,9 +101,6 @@ form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
-  display: table-cell;
-  clear: both;
-  overflow: auto;
 }
 
 form button {
@@ -117,6 +112,22 @@ form button {
   width: 100%;
 }
 
+.location {
+  display: flex;
+}
+
+.arrive {
+  display: flex;
+}
+
+.depart{
+  display: flex;
+}
+
+.dropdown {
+  display: flex;
+  
+}
 /* -------  Footer ------- */
 
 footer {
